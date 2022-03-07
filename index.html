@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TOP Landing Page</title>
-    <link rel="style-sheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body class="container">
 
     <div class="top-banner">
 
@@ -28,7 +28,7 @@
             
             <div class="left">
                 <h1 class="title">This website is awesome</h1>
-                <p>This website has some subtext taht goes here under 
+                <p>This website has some subtext that goes here under 
                 the main title. It's a smaller font and the color is 
                 lower contrast</p>
                 <button class="sign-up top-container">Sign up</button>
@@ -47,35 +47,42 @@
 
         <h2>Some random information.</h2>
 
-        <ul>
-            <li><img src="" alt="placeholder"> this is some subtext under an illustration or image</li>
-            <li><img src="" alt="placeholder"> this is some subtext under an illustration or image</li>
-            <li><img src="" alt="placeholder"> this is some subtext under an illustration or image</li>
-            <li><img src="" alt="placeholder"> this is some subtext under an illustration or image</li>
+        <ul class="info-pics">
+            <li><img class="pic" src="" alt="placeholder"> <div class="pic-info">this is some subtext under an illustration or image</div></li>
+            <li><img class="pic" src="" alt="placeholder"> <div class="pic-info">this is some subtext under an illustration or image</div></li>
+            <li><img class="pic" src="" alt="placeholder"> <div class="pic-info">this is some subtext under an illustration or image</div></li>
+            <li><img class="pic" src="" alt="placeholder"> <div class="pic-info">this is some subtext under an illustration or image</div></li>
         </ul>
 
     </div>
 
     <div class="inspiring-quote">
 
-        <p class="the-quote">
+        <div class="the-quote">
             This is an inspiring quote, or a testimonial from a customer.
             Maybe it's just filling up space, or maybe people will actually
             read it. Who knowws? All I know is that it looks nice.
-        </p>
+            <div class="quote-credits">-Thor, God of Thunder</div>
+        </div>
 
-        <div class="quote-credits">-Thor, God of Thunder</div>
+        
 
     </div>
 
     <div class="call-to-action">
         
-        <div>
-            <h3>Call to action! It's time!</h3>
-            <div>Sign up for our product by clicking that button right over there!</div>
+        <div class="action-content">
+            <div class="action-left">
+                <h3>Call to action! It's time!</h3>
+                <div>Sign up for our product by clicking that button right over there!</div>
+            </div>
+            <div class="action-right">
+                <button class="sign-up call-to-action">Sign up</button>
+            </div>
         </div>
+        
 
-        <button class="sign-up call-to-action">Sign up</button>
+        
 
     </div>
 
